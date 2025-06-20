@@ -1,6 +1,6 @@
 import { getNoticesBySearch } from "./crud/crudNoticias"
 import { MainScreen } from "./screens/mainScreen"
-
+import './App.css'
 
 function App() {
     const getNoticias = async () => {
